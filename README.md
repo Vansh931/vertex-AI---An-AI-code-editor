@@ -304,42 +304,6 @@ cd frontend
 npm run lint
 npm run build
 
-```
-
-```
-
----
-
-### 2. Steps to Push to GitHub
-
-Once you have your files ready and the `README.md` saved, follow these exact steps to push everything to your GitHub repository.
-
-1. **Go to GitHub:** Log into your GitHub account and click the **New Repository** button. Name it `vertexAI`.
-   * *Important:* Leave it entirely empty! Do NOT check the boxes for "Add a README file", "Add .gitignore", or "Choose a license".
-
-2. **Open PowerShell/Terminal on your machine:** Navigate to the root directory of your project.
-   ```powershell
-   cd D:\P.Prepare\vertexAI\vertexAI
-
-```
-
-3. **Initialize and Push your code:**
-Run the following commands one by one. (Make sure you replace `YOUR_GITHUB_USERNAME` with your actual username in the 6th command).
-```powershell
-# Initialize the local directory as a Git repository
-git init
-
-# Add all files to staging
-git add .
-
-# Verify that no .env or serviceAccountKey files are listed here!
-git status
-
-# Commit the files
-git commit -m "Initial commit: VertexAI architecture and base setup"
-
-# Rename the default branch to 'main'
-git branch -M main
 
 # Link your local repository to GitHub
 git remote add origin https://github.com/YOUR_GITHUB_USERNAME/vertexai.git
