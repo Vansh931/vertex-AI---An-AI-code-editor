@@ -303,10 +303,3 @@ Before pushing new changes, always build and lint the frontend:
 cd frontend
 npm run lint
 npm run build
-
-
-# Link your local repository to GitHub
-git remote add origin https://github.com/YOUR_GITHUB_USERNAME/vertexai.git
-
-# Push your code up to GitHub
-git push -u origin main
